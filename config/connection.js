@@ -1,6 +1,8 @@
+//dotnev will load environment variables
+
 require('dotenv').config();
 
-const Sequelize = require('sequelize');
+const Sequelize = require('sequelize');//new instance of sequelize to connect to local database
 
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
@@ -12,4 +14,6 @@ const sequelize = process.env.JAWSDB_URL
       },
     });
 
+
+    //export sequelize
 module.exports = sequelize;
