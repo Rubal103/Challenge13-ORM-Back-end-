@@ -28,6 +28,14 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+## Technologies used
+
+* Node.js
+* Sequelize
+* Express.js
+* JavaScript
+* MySql
+
 ## Screenshots of the working back end on insomnia
 ### Categories
 * get all Categories
@@ -65,4 +73,24 @@ THEN I am able to successfully create, update, and delete data in my database
 ![update a tag](./images/Update%20tag.png)
 * delete a tag
 ![delete a tag](./images/Delete%20tag.png)
+
+
+## link to github repository
+https://github.com/Rubal103/Challenge13-ORM-Back-end-
+
+## link to videos
+
+* video to start running the app
+https://drive.google.com/file/d/15LqIddstGc9LSV8LX9r_osz7GneA19RH/view?usp=sharing
+
+* video to make changes to categories
+https://drive.google.com/file/d/1ButM8NnPnLUQg7dYzutQqT-mwkDUFvDM/view?usp=sharing
+
+* video to make changes to products
+https://drive.google.com/file/d/1C2IaG4YbJ7y-sXMt_i7ZcWQVax5ghjvm/view?usp=sharing
+
+* video to make changes to tags
+https://drive.google.com/file/d/1ONqI0M7k4XzWjEvXjicJGNf7M4R3_qar/view?usp=sharing
+
+
 
